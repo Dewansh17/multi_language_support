@@ -1,0 +1,9 @@
+{
+    "welcome": "Bem-vindo",
+    "next": "Próximo",
+    "sendOtp": "Enviar OTP",
+    "verifyOtp": "Verificar OTP",
+    "enterEmail": "Digite seu email",
+    "enterMobile": "Digite seu número de celular",
+    "enterOtp": "Digite OTP"
+}

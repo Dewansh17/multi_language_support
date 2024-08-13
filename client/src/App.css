@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 300px;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+@media (min-width: 768px) {
+    .App {
+        padding: 50px;
+    }
+
+    select,
+    button,
+    input {
+        max-width: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .App {
+        padding: 80px;
+    }
+
+    select,
+    button,
+    input {
+        max-width: 500px;
+    }
+}

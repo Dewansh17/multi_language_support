@@ -1,0 +1,10 @@
+
+{
+    "welcome": "欢迎",
+    "next": "下一个",
+    "sendOtp": "发送OTP",
+    "verifyOtp": "验证OTP",
+    "enterEmail": "输入您的电子邮件",
+    "enterMobile": "输入您的手机号码",
+    "enterOtp": "输入OTP"
+}
